@@ -1,0 +1,25 @@
+:root{
+    --bgcolor: rgb(255,231,231);
+    --blur: 0px;
+    --spacing: 10px;
+}
+body{
+    text-align:center;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--bgcolor);
+    filter: blur(var(--blur));
+    width: 50%;
+    height: 50%;
+}
+h1{
+    color: var(--bgcolor);
+}
+input{
+    width: 100px;
+}
